@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style/styles.css">
+	</head>
+	<body>
+		<header>
+			<span id="title">truYum</span>
+			<span><img src="images/truyum-logo-light.png" name="symbol" id="img"></span>
+			<a href="#" class="menu" style="font-size: 20; color: white;">Menu</a>
+		</header>
+		<div id="bod">
+			<span id="tablehead">Edit Menu Items</span>
+			<form action="edit-menu-item-status.html">
+			<center>
+				<table style="padding-bottom: 1px">
+					<tr style="font-weight: bold">
+						<td colspan="4">
+							Name
+						</td>
+					</tr>
+					<tr>
+						<td colspan="4">
+							<input type="txt" name="a" size="100">
+						</td>
+					</tr>
+					<tr style="font-weight: bold">
+						<td class="leftalign">
+							Price (Rs.)
+						</td>
+						<td class="leftalign">
+							Active
+						</td>
+						<td class="leftalign"> 
+							Date of Launch
+						</td>
+						<td class="leftalign">
+							Category
+						</td>
+					</tr>
+					<tr>
+						<td>
+						 <input type="number" name="num">
+						</td>
+						<td>
+							<input type="radio" id="yes">
+							<label for="yes">Yes</label>
+							<input type="radio" id="no">
+							<label for="no">No</label>
+						</td>
+						<td>
+							<input type="number" name="num1">
+						</td>
+						<td>
+							<select name="cat" id="cat">
+							  <option value="starters">Starters</option>
+							  <option value="maincourse">Main Course</option>
+							  <option value="dessert">Dessert</option>
+							  <option value="drinks">Drinks</option>
+							</select>
+						</td>
+					</tr>
+					<tr style="font-weight: bold">
+						<td colspan="4">
+							<input type="checkbox" id="del">
+							<label for="del">Free Delivery</label>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="4">
+							<button type="submit" value="Submit" style="height: 50px; width: 150px; background-color: #426cf5; color: white; font-weight: bold">Save</button>
+						</td>
+					</tr>
+				</table>
+			</center>
+		</form>
+		</div>
+		<footer>Copyright 2019</footer>
+	</body>
+</html>
